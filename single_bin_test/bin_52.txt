@@ -1,0 +1,37 @@
+#higgs combine tool shape analysis card for z'to mumu 1 jet
+#https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit/blob/102x/data/tutorials/shapes/simple-shapes-df.txt
+-------------------------
+
+imax 1  number of channels                                      #1 Jet
+jmax 1  number of backgrounds -1                                    #following AN2015_207_v5, not sure why the -1 is there?
+kmax *  number of nuisance parameters (sources of systematic uncertainties)
+
+-------------------------
+
+bin       SR1_2016_52
+observation   36.67
+
+-------------------------
+
+bin       SR1_2016_52      SR1_2016_52
+process     ABCD_SR1_2016    sig_SR1_2016_200_0.04
+process     1     -1
+rate      36.67   0.00
+
+-------------------------
+lumi lnN -      1.025
+back_fit_2016_52 lnN 0.98/1.02    -    
+Closure_2016_52 lnN  0.79/1.21   -  
+jer_2016   lnN -      1.00/1.00
+jes_2016   lnN -      1.00/1.00
+roch_2016   lnN -      1.00/1.00
+HEM_2016   lnN -      1.00/1.00
+btagCorr   lnN -      1.00/1.00
+btagUncorr_2016   lnN -      1.00/1.00
+elSF_2016   lnN -      1.00/1.00
+ISRFSR_2016   lnN -      1.00/1.00
+Muon_2016   lnN -      1.00/1.00
+trigger_2016   lnN -      1.00/1.00
+pdf_2016   lnN -      1.00/1.00
+puid_2016   lnN -      1.00/1.00
+pu   lnN -      1.00/1.00
