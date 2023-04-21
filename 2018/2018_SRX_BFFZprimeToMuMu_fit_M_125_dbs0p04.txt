@@ -1,0 +1,35 @@
+Combination of name0=2018_SR1_BFFZprimeToMuMu_fit_M_125_dbs0p04.txt  name1=2018_SR2_BFFZprimeToMuMu_fit_M_125_dbs0p04.txt
+imax 2 number of bins
+jmax 1 number of processes minus 1
+kmax 15 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes ABCD          name0         2018_shapes_df_input.root SR1_2018-nom-data_obs SR1_2018-$SYSTEMATIC-$PROCESS
+shapes data_obs      name0         2018_shapes_df_input.root SR1_2018-nom-data_obs SR1_2018-$SYSTEMATIC-$PROCESS
+shapes sig_125_0.04  name0         2018_shapes_df_input.root SR1_2018-nom-$PROCESS SR1_2018-$SYSTEMATIC-$PROCESS
+shapes ABCD          name1         2018_shapes_df_input.root SR2_2018-nom-data_obs SR2_2018-$SYSTEMATIC-$PROCESS
+shapes data_obs      name1         2018_shapes_df_input.root SR2_2018-nom-data_obs SR2_2018-$SYSTEMATIC-$PROCESS
+shapes sig_125_0.04  name1         2018_shapes_df_input.root SR2_2018-nom-$PROCESS SR2_2018-$SYSTEMATIC-$PROCESS
+----------------------------------------------------------------------------------------------------------------------------------
+bin          name0          name1        
+observation  -1             -1           
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                     name0          name0          name1          name1        
+process                                 sig_125_0.04   ABCD           sig_125_0.04   ABCD         
+process                                 0              1              0              1            
+rate                                    -1             -1             -1             -1           
+----------------------------------------------------------------------------------------------------------------------------------
+HEM_2018_               shapeN2         1.0            -              1.0            -            
+ISRFSR_2018_            shapeN2         1.0            -              1.0            -            
+Muon_2018_              shapeN2         1.0            -              1.0            -            
+back_closure_2018       lnN             -              1.1803030303   -              1.16616161616
+btagCorr_               shapeN2         1.0            -              1.0            -            
+btagUncorr_2018_        shapeN2         1.0            -              1.0            -            
+elSF_2018_              shapeN2         1.0            -              1.0            -            
+jer_2018_               shapeN2         1.0            -              1.0            -            
+jes_2018_               shapeN2         1.0            -              1.0            -            
+lumi                    lnN             1.025          -              1.025          -            
+pdf_2018_               shapeN2         1.0            -              1.0            -            
+pu_                     shapeN2         1.0            -              1.0            -            
+puid_2018_              shapeN2         1.0            -              1.0            -            
+roch_2018_              shapeN2         1.0            -              1.0            -            
+trigger_2018_           shapeN2         1.0            -              1.0            -            

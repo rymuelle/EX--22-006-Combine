@@ -1,0 +1,66 @@
+{
+    "emptyBkgBin": {
+        "name0": [
+            118
+        ],
+        "name1": [
+            118
+        ],
+        "name2": [
+            118
+        ],
+        "name3": [
+            118
+        ],
+        "name4": [
+            118
+        ],
+        "name5": [
+            118
+        ]
+    },
+    "largeNormEff": {
+        "back_closure_2016": {
+            "name0": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.20858585859
+                }
+            },
+            "name1": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.13080808081
+                }
+            }
+        },
+        "back_closure_2017": {
+            "name2": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.1803030303
+                }
+            },
+            "name3": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.19444444444
+                }
+            }
+        },
+        "back_closure_2018": {
+            "name4": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.1803030303
+                }
+            },
+            "name5": {
+                "ABCD": {
+                    "value_d": 0.0,
+                    "value_u": 1.16616161616
+                }
+            }
+        }
+    }
+}

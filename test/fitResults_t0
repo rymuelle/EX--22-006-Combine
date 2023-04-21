@@ -1,0 +1,5 @@
+diffNuisances run on fitDiagnostics_t0.root, at 2023-04-13 20:14:43.702470 with the following options ... {'regex': '.*', 'absolute_values': False, 'show_all_parameters': True, 'format': 'text', 'stol2': 0.5, 'pullDef': '', 'vtol': 0.3, 'stol': 0.1, 'plotfile': 'plots_t0.root', 'skipFitB': False, 'sortBy': 'correlation', 'vtol2': 2.0, 'poi': 'r', 'skipFitS': False}
+
+name                                              b-only fit            s+b fit         rho  approx impact
+back_closure_2016                                +0.00, 0.08     ! +0.00, 0.08!     !-0.13!      -0.001
+lumi                                             +0.00, 1.00        -0.00, 1.00       +0.00      +0.000
